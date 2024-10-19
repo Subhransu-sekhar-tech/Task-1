@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px; /* Increased width */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 500px;
+
+  }
+  .happy{
+    font-style: italic;
+  }
+  .header {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text-container {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  h1 span {
+    color: #0056B3;
+    font-size: 2.5rem;
+  }
+  
+  .message-div {
+    width: 200px;
+  }
+  
+  .message {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .photo-container {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .photo-wrapper {
+    position: relative;
+  }
+  
+  .photo {
+    width: 240px;
+    height: 320px;
+    object-fit: cover;
+    border: 4px solid #0056B3;
+  }
+  
+  .overlay {
+    background-color: #0056B3;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.1rem;
+  }
+  
+  .name-container {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .name-container strong {
+    font-size: 1.2rem;
+    color: #0056B3;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+    color: #999;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
